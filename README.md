@@ -54,8 +54,3 @@ This Terraform code creates the following resources:
 10. RDS instance
 11. Route53 record
 12. S3 Bucket
-
-## Command to import certificate
-   ```
-   aws acm import-certificate --profile demo --certificate fileb://demo_jaymithani_me.crt --private-key fileb://jaymithani.key
-   ```
